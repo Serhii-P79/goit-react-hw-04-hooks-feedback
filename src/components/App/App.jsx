@@ -10,7 +10,6 @@ function App() {
   const [bad, setBad] = useState(0);
 
   const feedbackIncrement = e => {
-    // console.log(e.target);
     const name = e.target.name;
     const getValue = pS => pS + 1;
 
